@@ -1,14 +1,4 @@
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchCompanies } from 'store/companies';
+import Companies from 'components/Companies';
 
-const Home = () => {
-  const dispatch = useDispatch();
-  const loading = useSelector(state => state.companies.loading);
-  useEffect(() => {
-    dispatch(fetchCompanies());
-  }, []);
-  return <div>{loading ? 'LOADING' : 'NOTLOADING'}</div>;
-};
-
+const Home = () => <Companies />;
 export default Home;
