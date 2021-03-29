@@ -12,6 +12,10 @@ if (!envFound || envFound.error) {
   console.log("⚠️  Couldn't find .env file  ⚠️");
 }
 
+server.use((req, res, next) => {
+  setTimeout(next, 1000);
+});
+
 server.use(middlewares);
 server.use(router);
 server.listen(port, () => {

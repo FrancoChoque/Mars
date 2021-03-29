@@ -1,0 +1,60 @@
+{
+  "companies": [
+    {
+      "id": 0,
+      "name": "SCRUM Alliance Catch-up",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-02-02"
+    },
+    {
+      "id": 1,
+      "name": "Burgers at Dellepiane",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-05-31"
+    },
+    {
+      "id": 2,
+      "name": "Brazilian Fight Club",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-05-01"
+    },
+    {
+      "id": 3,
+      "name": "Skip level lunch",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-06-20"
+    },
+    {
+      "id": 4,
+      "name": "Feed our Bearded Dragons",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2023-11-10"
+    },
+    {
+      "id": 5,
+      "name": "Helping goats",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-08-02"
+    },
+    {
+      "id": 6,
+      "name": "Pokemon GO classes for elders",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-10-02"
+    },
+    {
+      "id": 7,
+      "name": "Wine Taste",
+      "budget": 1000,
+      "budget_spent": 0,
+      "date_of_first_purchase": "2120-01-02"
+    }
+  ]
+}
