@@ -3,9 +3,9 @@ import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { ANIMATION_DURATION } from 'theme';
 
-import { StyledBackDropShadow, StyledModal } from './style';
+import { Content, Footer, Header, StyledBackDropShadow, StyledModal } from './style';
 
-const Modal = ({ children, display, onBackdropClick, backdropStyle, ...props }) => {
+const Modal = ({ children, display, onBackdropClick, footer, header }) => {
   const [showModal, setShowModal] = useState(false);
 
   function handleBackdropClick(event) {
@@ -26,7 +26,16 @@ const Modal = ({ children, display, onBackdropClick, backdropStyle, ...props }) 
     >
       <StyledBackDropShadow onClick={handleBackdropClick}>
         <CSSTransition in={showModal} mountOnEnter unmountOnExit timeout={ANIMATION_DURATION}>
-          <StyledModal {...props}>{children}</StyledModal>
+          <StyledModal>
+            <Header>
+              {header}
+              <button type="button" onClick={handleBackdropClick}>
+                X
+              </button>
+            </Header>
+            <Content>{children}</Content>
+            {footer && <Footer>{footer}</Footer>}
+          </StyledModal>
         </CSSTransition>
       </StyledBackDropShadow>
     </CSSTransition>
@@ -36,13 +45,15 @@ const Modal = ({ children, display, onBackdropClick, backdropStyle, ...props }) 
 Modal.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.element]).isRequired,
   display: PropTypes.bool.isRequired,
+  header: PropTypes.node,
+  footer: PropTypes.node,
   onBackdropClick: PropTypes.func,
-  backdropStyle: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
 };
 
 Modal.defaultProps = {
+  footer: null,
+  header: null,
   onBackdropClick: () => {},
-  backdropStyle: {},
 };
 
 export default Modal;

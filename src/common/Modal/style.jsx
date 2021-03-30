@@ -33,6 +33,8 @@ export const StyledBackDropShadow = styled.div`
 `;
 
 export const StyledModal = styled.div`
+  display: flex;
+  flex-direction: column;
   padding: ${MARGIN_PADDING.extra_large}px;
   position: absolute;
   background-color: ${COLORS.white};
@@ -67,4 +69,24 @@ export const StyledModal = styled.div`
     bottom: -100%;
     transition: bottom ${ANIMATION_DURATION}ms ${ANIMATION_TIMING};
   }
+`;
+
+export const Header = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+`;
+
+export const Footer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 `;

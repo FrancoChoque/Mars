@@ -19,12 +19,7 @@
       "react/forbid-prop-types": "off",
       "react/react-in-jsx-scope": "off",
       "max-len": "off",
-      "react/jsx-props-no-spreading": [
-        "error",
-        {
-          "custom": "ignore"
-        }
-      ]
+      "react/jsx-props-no-spreading": "off"
     }
   }
   

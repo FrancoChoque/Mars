@@ -2,58 +2,58 @@
   "companies": [
     {
       "id": 0,
-      "name": "SCRUM Alliance Catch-up",
-      "budget": 1000,
-      "budget_spent": 0,
-      "date_of_first_purchase": "2120-02-02"
+      "name": "Verizon",
+      "budget": 1000000,
+      "budget_spent": 1002093,
+      "date_of_first_purchase": "2120-01-01"
     },
     {
       "id": 1,
-      "name": "Burgers at Dellepiane",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Xerox",
+      "budget": 1000000,
+      "budget_spent": 50332,
       "date_of_first_purchase": "2120-05-31"
     },
     {
       "id": 2,
-      "name": "Brazilian Fight Club",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Amazon",
+      "budget": 1000000,
+      "budget_spent": 634,
       "date_of_first_purchase": "2120-05-01"
     },
     {
       "id": 3,
-      "name": "Skip level lunch",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Planet Express",
+      "budget": 1000000,
+      "budget_spent": 35745,
       "date_of_first_purchase": "2120-06-20"
     },
     {
       "id": 4,
-      "name": "Feed our Bearded Dragons",
-      "budget": 1000,
-      "budget_spent": 0,
-      "date_of_first_purchase": "2023-11-10"
+      "name": "Space Uber",
+      "budget": 3000000,
+      "budget_spent": 35745,
+      "date_of_first_purchase": "2120-06-20"
     },
     {
       "id": 5,
-      "name": "Helping goats",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Mars Hotel",
+      "budget": 12312,
+      "budget_spent": 7564,
       "date_of_first_purchase": "2120-08-02"
     },
     {
       "id": 6,
-      "name": "Pokemon GO classes for elders",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Starbucks",
+      "budget": 1000000,
+      "budget_spent": 64570,
       "date_of_first_purchase": "2120-10-02"
     },
     {
       "id": 7,
-      "name": "Wine Taste",
-      "budget": 1000,
-      "budget_spent": 0,
+      "name": "Staples",
+      "budget": 1000000,
+      "budget_spent": 12340,
       "date_of_first_purchase": "2120-01-02"
     }
   ]
