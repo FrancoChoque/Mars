@@ -1,4 +1,4 @@
-# Events App - JP Morgan Coding Challenge
+# Mars App - Billie Coding Challenge
 
 ## Requirements
 
