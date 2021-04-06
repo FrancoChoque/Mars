@@ -6,7 +6,7 @@
 
 ## Installation
 
-    yarn install
+    npm i
 
 ## Configuration
 
@@ -18,12 +18,12 @@ Copy environment variables
 
 Start the backend server
 
-    yarn server
+    npm run server
 
 Start the app on a different console
 
-    yarn start
+    npm start
 
 ## Comments
 
-    The app was created with create-react-app.
+    The app was created with create-react-app. I'm using json-server as a backend so two consoles are necessary in order to use the app properly, one for the react app and another one for the json-server.
