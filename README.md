@@ -4,25 +4,25 @@
 
 [npm](https://www.npmjs.com/get-npm)
 
-## Instalation
+## Installation
 
-    npm install
+    yarn install
 
 ## Configuration
 
 Copy environment variables
 
-    cp env.example .env
+    cp .env.example .env
 
 ## Use
 
 Start the backend server
 
-    npm run server
+    yarn server
 
-Start the app
+Start the app on a different console
 
-    npm run start
+    yarn start
 
 ## Comments
 
